@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		01706F590A347F9A00E43B08 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1B4D6CB7122D5EB30032CC57 /* Voltmeter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Voltmeter.c; sourceTree = "<group>"; };
+		1BEBC5B9123824C1009E359C /* lcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcd.c; sourceTree = "<group>"; };
+		1BEBC5BA123824C1009E359C /* lcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcd.h; sourceTree = "<group>"; };
+		BD63F75B25F9470D009EC147 /* Atmega8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Atmega8.jpg; sourceTree = "<group>"; };
+		BD7A616C2687847800487EB5 /* sevenseg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sevenseg.h; sourceTree = "<group>"; };
+		BD7A616D2687847800487EB5 /* sevenseg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sevenseg.c; sourceTree = "<group>"; };
+		BD7A616E2687AD3E00487EB5 /* adc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adc.h; sourceTree = "<group>"; };
+		BD7A616F2687AD3E00487EB5 /* adc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adc.c; sourceTree = "<group>"; };
+		BDE5C70F2847E6450082665B /* Tabelle ADC Diode.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Tabelle ADC Diode.txt"; sourceTree = "<group>"; };
+		BDE5C7102848D49A0082665B /* Si-Diode Umrechnungen.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Si-Diode Umrechnungen.xlsx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ¬´PROJECTNAME¬ª */ = {
+			isa = PBXGroup;
+			children = (
+				01706F590A347F9A00E43B08 /* Makefile */,
+				1B4D6CB7122D5EB30032CC57 /* Voltmeter.c */,
+				BD7A616F2687AD3E00487EB5 /* adc.c */,
+				BD7A616E2687AD3E00487EB5 /* adc.h */,
+				1BEBC5B9123824C1009E359C /* lcd.c */,
+				1BEBC5BA123824C1009E359C /* lcd.h */,
+				BD63F75B25F9470D009EC147 /* Atmega8.jpg */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "¬´PROJECTNAME¬ª";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BDE5C7102848D49A0082665B /* Si-Diode Umrechnungen.xlsx */,
+				BDE5C70F2847E6450082665B /* Tabelle ADC Diode.txt */,
+				BD7A616C2687847800487EB5 /* sevenseg.h */,
+				BD7A616D2687847800487EB5 /* sevenseg.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0142E2590A37DAD800461F0A /* Debug */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) debug";
+			buildConfigurationList = 0142E25A0A37DAD800461F0A /* Build configuration list for PBXLegacyTarget "Debug" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = Debug;
+			passBuildSettingsInEnvironment = 1;
+			productName = Program;
+		};
+		01706F540A347F6900E43B08 /* Make */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 01706F550A347F8800E43B08 /* Build configuration list for PBXLegacyTarget "Make" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = Make;
+			passBuildSettingsInEnvironment = 1;
+			productName = Make;
+		};
+		01706F5B0A34807400E43B08 /* Program */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) program";
+			buildConfigurationList = 01706F660A34808D00E43B08 /* Build configuration list for PBXLegacyTarget "Program" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = Program;
+			passBuildSettingsInEnvironment = 1;
+			productName = Program;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 01706F350A34762900E43B08 /* Build configuration list for PBXProject "Voltmeter" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ¬´PROJECTNAME¬ª */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01706F540A347F6900E43B08 /* Make */,
+				01706F5B0A34807400E43B08 /* Program */,
+				0142E2590A37DAD800461F0A /* Debug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0142E25B0A37DAD800461F0A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PATH = "/sw/bin/:/usr/local/bin/:$PATH";
+				PRODUCT_NAME = Program;
+			};
+			name = Development;
+		};
+		0142E25C0A37DAD800461F0A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = Program;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		0142E25D0A37DAD800461F0A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Program;
+			};
+			name = Default;
+		};
+		01706F360A34762900E43B08 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		01706F370A34762900E43B08 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		01706F380A34762900E43B08 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		01706F560A347F8800E43B08 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PATH = "$(PATH):/usr/local/CrossPack-AVR/bin";
+				PRODUCT_NAME = Make;
+			};
+			name = Development;
+		};
+		01706F570A347F8800E43B08 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = Make;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		01706F580A347F8800E43B08 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Make;
+			};
+			name = Default;
+		};
+		01706F670A34808D00E43B08 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PATH = "$(PATH):/usr/local/CrossPack-AVR/bin";
+				PRODUCT_NAME = Program;
+			};
+			name = Development;
+		};
+		01706F680A34808D00E43B08 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = Program;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		01706F690A34808D00E43B08 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Program;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0142E25A0A37DAD800461F0A /* Build configuration list for PBXLegacyTarget "Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0142E25B0A37DAD800461F0A /* Development */,
+				0142E25C0A37DAD800461F0A /* Deployment */,
+				0142E25D0A37DAD800461F0A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01706F350A34762900E43B08 /* Build configuration list for PBXProject "Voltmeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01706F360A34762900E43B08 /* Development */,
+				01706F370A34762900E43B08 /* Deployment */,
+				01706F380A34762900E43B08 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01706F550A347F8800E43B08 /* Build configuration list for PBXLegacyTarget "Make" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01706F560A347F8800E43B08 /* Development */,
+				01706F570A347F8800E43B08 /* Deployment */,
+				01706F580A347F8800E43B08 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01706F660A34808D00E43B08 /* Build configuration list for PBXLegacyTarget "Program" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01706F670A34808D00E43B08 /* Development */,
+				01706F680A34808D00E43B08 /* Deployment */,
+				01706F690A34808D00E43B08 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
