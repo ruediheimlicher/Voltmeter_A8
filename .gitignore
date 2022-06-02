@@ -1,0 +1,11 @@
+build/*
+*.eep
+*.elf
+*.lss
+*.lst
+*.map
+*.sym
+*.hex
+*.o
+.dep/*
+mini-voltmeter*
